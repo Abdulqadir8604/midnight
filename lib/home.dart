@@ -73,10 +73,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: brandName(),
+        centerTitle: true,
+        title: Text('Midnight Walls'),
         elevation: 0.0,
+        backgroundColor: Colors.redAccent,
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white60,
       body: SingleChildScrollView(
         child: Container(
           child: Column(
@@ -127,13 +129,13 @@ class _HomeState extends State<Home> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      _launchURL("https://www.linkedin.com/in/lamsanskar/");
+                      _launchURL("https://abdulqadir8604.github.io/Portfolio/");
                     },
                     child: Container(
                         child: Text(
                       "Abdulqadir",
                       style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.redAccent,
                           fontSize: 12,
                           fontFamily: 'Overpass'),
                     )),

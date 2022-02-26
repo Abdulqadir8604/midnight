@@ -46,13 +46,15 @@ class _CategorieScreenState extends State<CategorieScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: brandName(),
+        centerTitle: true,
+        title: Text('Midnight Walls'),
+        backgroundColor: Colors.redAccent,
         elevation: 0.0,
         actions: <Widget>[
           Container(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Icon(
-                Icons.add,
+                Icons.volunteer_activism,
                 color: Colors.white,
               ))
         ],
