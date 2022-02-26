@@ -47,7 +47,7 @@ class _CategorieScreenState extends State<CategorieScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Midnight Walls'),
+        title: brandName(),
         backgroundColor: Colors.redAccent,
         elevation: 0.0,
         actions: <Widget>[
